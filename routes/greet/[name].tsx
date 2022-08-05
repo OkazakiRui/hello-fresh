@@ -4,7 +4,7 @@ import { PageProps } from "$fresh/server.ts";
 
 export default function GreetPage(props: PageProps) {
   const { name } = props.params;
-  console.log(props);
+  // console.log(props);
   const propsString = JSON.stringify(props);
 
   return (
